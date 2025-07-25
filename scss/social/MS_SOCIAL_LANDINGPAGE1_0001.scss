@@ -1,0 +1,25 @@
+.gb-top-header-right{
+  text-align: right;
+  @media screen and (max-width: 991px) and (min-width: 600px) {
+    display:  none;
+  }
+  ul{
+    li{
+      display: inline-block;
+      a{
+        display: inline-flex;
+        align-items: center;
+        justify-content: center;
+        width: 35px;
+        height: 35px;
+        color: $color-main1;
+        border: 1px solid $color-main1;
+        transition:  all 0.5s;
+        &:hover{
+          background: $color-main1;
+          color: $color-white;
+        }
+      }
+    }
+  }
+}

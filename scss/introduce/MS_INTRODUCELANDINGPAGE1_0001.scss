@@ -1,0 +1,84 @@
+/*VỀ CHÚNG TÔI*/
+.title-left{
+  margin-bottom: 30px;
+  h2{
+    font-size: 36px;
+    text-transform: uppercase;
+    margin-bottom: 15px;
+    font-weight: 600;
+    position: relative;
+    color: $color-main1;
+  }
+  .under-line1{
+    background: url(../images/underline1.png) no-repeat;
+    height: 16px;
+    margin-top: 20px;
+  }
+}
+.title-center{
+  margin-bottom: 30px;
+  h2{
+    font-weight: 500;
+    font-size: 36px;
+    text-align: center;
+  }
+  .under-line2{
+    background: url(../images/underline.png) no-repeat;
+    background-position: center center;
+    height: 16px;
+    margin-top: 20px;
+  }
+  p{
+    margin-top: 20px;
+    font-size: 14px;
+    line-height: 1.7;
+    color: #666666;
+    text-align: center;
+  }
+}
+.gb-vechusngtoi-home{
+  padding-top: 50px;
+  padding-bottom:  20px;
+  background: url("../../images/p6.png");
+  .gb-vechusngtoi-home-left{
+    h4{
+      color: #808080;
+      font-weight: 400;
+      line-height: 1.42857143;
+      font-size: 24px;
+    }
+    h3{
+      color: #202C45;
+      font-weight: 500;
+      font-size: 36px;
+      line-height: 1.42857143;
+    }
+    p{
+      font-size: 16px;
+      font-weight: normal;
+      font-style: normal;
+      font-stretch: normal;
+      line-height: 1.86;
+      letter-spacing: normal;
+      text-align: left;
+      color: $color-black;
+      margin-bottom: 20px;
+    }
+  }
+  .btn-dangky{
+    margin-top: 20px;
+    a{
+      display: inline-block;
+      background: $color-main2;
+      min-width: 150px;
+      padding: 15px 20px;
+      color: $color-white;
+      border: 2px solid $color-main2;
+      transition:  all 0.5s;
+      &:hover{
+        background: transparent;
+        color: $color-main2;
+      }
+    }
+  }
+}

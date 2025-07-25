@@ -1,0 +1,45 @@
+.gb-doingu-giangvien{
+  padding: 80px 0;
+  .item{
+    background: #F0F0F0;
+    padding: 20px;
+    .thumb{
+      margin-bottom: 30px;
+    }
+    h3{
+      font-size: 20px;
+      text-transform: uppercase;
+      margin-bottom: 15px;
+      font-weight: 600;
+      position: relative;
+      color: #0553a3;
+      text-align: center;
+    }
+    p{
+      font-size: 16px;
+      font-weight: normal;
+      font-style: normal;
+      font-stretch: normal;
+      line-height: 1.86;
+      letter-spacing: normal;
+      text-align: center;
+      color: $color-black;
+    }
+    ul{
+      text-align: center;
+      margin: 20px 0;
+      li{
+        display: inline-block;
+        a{
+          display: inline-flex;
+          align-items: center;
+          justify-content: center;
+          width: 40px;
+          height: 40px;
+          color: $color-main1;
+          border: 1px solid $color-main1;
+        }
+      }
+    }
+  }
+}

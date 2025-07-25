@@ -1,0 +1,39 @@
+/*INTRPDUCE 2*/
+.gb-email-tele-tool-ishopgo40{
+  padding: 80px 0;
+  .gb-email-tele-tool-ishopgo40-left{
+    padding-top: 100px;
+    @media screen and (max-width: 991px) {
+      padding-top:  0;
+      margin-bottom: 50px;
+    }
+    h3{
+      font-size: 26px;
+      line-height: 1.4;
+      color: $color-main;
+      font-weight: 600;
+      margin-bottom: 15px;
+    }
+    p{
+      line-height: 1.5;
+      font-size: 18px;
+      color: $color-1;
+      margin-bottom: 15px;
+    }
+  }
+  .gb-email-tele-tool-ishopgo40-right{
+    position: relative;
+    img{
+      width: 100%;
+    }
+    .muangay-ishopgo40{
+      position: absolute;
+      bottom: 50px;
+      right: 0;
+      @media screen and (max-width: 1199px) and (min-width: 992px) {
+        bottom: 25px;
+      }
+    }
+  }
+}
+/*INTRPDUCE 2*/

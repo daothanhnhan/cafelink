@@ -1,0 +1,62 @@
+.gb-diemdocdao{
+  //background: url("../images/bg_lastest_new.jpg") no-repeat;
+  background-size: cover;
+  background-position: center center;
+  padding: 80px 0;
+  .title-center{
+    h2{
+      color: $color-white;
+    }
+    .under-line2{
+      background: url(../images/underline2.png) no-repeat;
+      height: 16px;
+      background-position: center center;
+    }
+  }
+  .gb-diemdocdao-item{
+    min-height: 150px;
+    margin-bottom: 30px;
+    .item-icons{
+      font-size: 24px;
+      text-align: center;
+      color: $color-white;
+      padding: 36px 0px;
+    }
+    .item-text{
+      h4{
+        font-size: 18px;
+        font-weight: normal;
+        font-style: normal;
+        font-stretch: normal;
+        line-height: 1.86;
+        letter-spacing: normal;
+        text-align: left;
+        color: $color-white;
+      }
+      p{
+        font-size: 16px;
+        font-weight: normal;
+        font-style: normal;
+        font-stretch: normal;
+        line-height: 1.86;
+        letter-spacing: normal;
+        text-align: left;
+        color: $color-white;
+      }
+    }
+  }
+}
+.bg-orange {
+  background: #ef9618;
+  padding: 10px 5px;
+}
+
+.bg-pink {
+  background: #c03d67;
+  padding: 10px 5px;
+}
+
+.bg-blue {
+  background: #0a56a2;
+  padding: 10px 5px;
+}

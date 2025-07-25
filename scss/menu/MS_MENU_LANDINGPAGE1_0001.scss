@@ -1,0 +1,93 @@
+/*B0TTOM HEADER*/
+.menu-mobile-nav{
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 40px;
+  height: 40px;
+  border: 1px solid $color-main1;
+  position: absolute;
+  top: 70px;
+  right: 15px;
+  z-index: 99;
+  cursor: pointer;
+  opacity: 0;
+  @media screen and (max-width: 991px) {
+    opacity: 1;
+  }
+  @media screen and (max-width: 767px) {
+    top: 53px;
+  }
+}
+.gb-bottom-header{
+  background: $color-main1;
+  @media screen and (max-width: 991px) {
+    display:  none;
+  }
+  ul{
+    li{
+      display:  inline-block;
+      @media screen and (max-width: 991px) {
+        display:  block;
+      }
+      &:first-child{
+        a{
+          padding-left: 0;
+        }
+      }
+      &:last-child{
+        a{
+          @media screen and (max-width: 991px) {
+            border-bottom: none;
+          }
+        }
+      }
+      a{
+        display: block;
+        font-size: 12px;
+        color: #fff;
+        padding: 20px 10px;
+        font-weight: bold;
+        text-transform: uppercase;
+        @media screen and (max-width: 1199px) and (min-width: 992px) {
+          font-size: 11px;
+          padding: 20px 5px;
+        };
+        @media screen and (max-width: 991px) {
+          padding: 20px;
+          border-bottom: 1px solid $color-white;
+        }
+      }
+    }
+  }
+}
+.gb-bottom-header-hotline{
+  color: $color-white;
+  font-size: 18px;
+  font-weight: bold;
+  padding: 14px 0;
+  background: $color-main2;
+  text-align: center;
+  @media screen and (max-width: 991px) {
+    display: none;
+  }
+  @media screen and (max-width: 1199px) and (min-width: 992px) {
+    font-size: 14px;
+  }
+  i{
+    font-size: 24px;
+    padding-right: 10px;
+  }
+}
+.is-sticky{
+  @media screen and (max-width: 991px) {
+    visibility:  hidden;
+  }
+}
+.sticky-wrapper{
+  @media screen and (max-width: 991px) {
+    height: auto !important;
+  }
+}

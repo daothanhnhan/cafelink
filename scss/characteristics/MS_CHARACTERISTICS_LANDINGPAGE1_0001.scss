@@ -1,0 +1,45 @@
+/*CÓ THỂ BẠN CHƯA BIẾT*/
+.gb-ban-co-biet{
+  //background: url("../images/img-120.jpg") no-repeat;
+  background-size: cover;
+  background-position: center center;
+  padding: 50px 0;
+  .title-center{
+    h2{
+      color: $color-white;
+    }
+    .under-line2{
+      background: url(../images/underline2.png) no-repeat;
+      height: 16px;
+      background-position: center center;
+    }
+  }
+  .gb-ban-co-biet-item{
+    ul{
+      li{
+        &.icons{
+          img{
+            margin:  0 auto;
+          }
+        }
+        &.number{
+          font-size: 50px;
+          text-align: center;
+          font-weight: 600;
+          margin: 15px 0;
+          color: $color-white;
+        }
+        &.text{
+          font-size: 16px;
+          font-weight: normal;
+          font-style: normal;
+          font-stretch: normal;
+          line-height: 1.86;
+          letter-spacing: normal;
+          text-align: center;
+          color: $color-white;
+        }
+      }
+    }
+  }
+}

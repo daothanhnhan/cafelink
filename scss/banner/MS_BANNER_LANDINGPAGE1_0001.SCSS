@@ -1,0 +1,120 @@
+.gb-content-home-banner{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 700px;
+  background-size: cover;
+  background-position: center center;
+  @media screen and (max-width: 991px) {
+    height:  auto;
+    padding: 50px 0;
+    background-size: cover !important;
+  }
+  h1{
+    font-size: 40px;
+    font-weight: 700;
+    margin-bottom: 30px;
+    color: $color-white;
+  }
+  p{
+    font-size: 16px;
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 1.86;
+    letter-spacing: normal;
+    text-align: left;
+    color: $color-white;
+    margin-bottom: 30px;
+  }
+  a{
+    &.btn{
+      background: $color-main1;
+      border: 2px solid $color-main1;
+      box-shadow: none;
+      transition:  all 0.5s;
+      &:hover{
+        background: transparent;
+        color: $color-white;
+        border-color: $color-white;
+      }
+    }
+  }
+}
+
+.gb-content-home-banner-iconstext{
+  padding-top: 100px;
+  @media screen and (max-width: 991px) {
+    padding-top: 30px;
+  }
+  h3{
+    font-size: 36px;
+    color: $color-white;
+    font-weight: 600;
+    margin-bottom: 30px;
+    @media screen and (max-width: 991px) {
+      font-size: 24px;
+    }
+  }
+  .iconstext-item{
+    display: flow-root;
+    @media screen and (max-width: 991px) {
+      margin-bottom: 30px;
+    }
+    .icons{
+      float:  left;
+      width: 50px;
+      height: 50px;
+      background: $color-main2;
+      border-radius: 50px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      color: $color-white;
+      font-size: 24px;
+      position: relative;
+      &:before{
+        border-radius: 50%;
+        box-shadow: 0 0 0 3px #eeeeee;
+        box-sizing: content-box;
+        content: "";
+        height: 100%;
+        left: -12px;
+        padding: 12px;
+        top: -12px;
+        transform: scale(0.8);
+        transition: transform 0.2s ease 0s, opacity 0.2s ease 0s;
+        pointer-events: none;
+        position: absolute;
+        width: 100%;
+      }
+    }
+    .text{
+      padding-left: 70px;
+      p{
+        font-size: 14px
+      }
+    }
+  }
+}
+
+.btn-contactus{
+  a{
+    display: inline-block;
+    color: $color-white;
+    background-color: $color-main2;
+    padding: 10px 0;
+    min-width: 150px;
+    text-align: center;
+    border: 2px solid $color-main2;
+    transition:  all 0.5s;
+    &:hover{
+      color: $color-main2;
+      background: transparent;
+    }
+  }
+}
+
+.banner-background{
+  background: url("../images/Background.png") no-repeat;
+}

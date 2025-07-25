@@ -1,0 +1,47 @@
+/*services*/
+.gb-home-services-ishopgo40{
+
+}
+
+.gb-home-services-ishopgo40-item{
+  padding: 20px;
+  @media screen and (max-width: 991px) {
+    margin-bottom: 30px;
+  }
+  .item-icons-ishopgo40{
+    font-size: 40px;
+    width: 60px;
+    float: left;
+    color: $color-white;
+  }
+  .item-text-ishopgo40{
+    padding-left: 60px;
+    h2{
+      font-size: 18px;
+      font-weight: 600;
+      margin-bottom: 15px;
+      color: $color-white;
+    }
+    p{
+      line-height: 1.5;
+      font-size: 16px;
+      color: $color-white;
+      display: -webkit-box;
+      -webkit-box-orient: vertical;
+      -webkit-line-clamp: 4;
+      overflow: hidden;
+    }
+  }
+}
+
+.item-background-138a13{
+  background: #138a13;
+}
+.item-background-6fab55{
+  background: #6fab55;
+}
+.item-background-8bb17b{
+  background: #8bb17b;
+}
+
+/*services*/

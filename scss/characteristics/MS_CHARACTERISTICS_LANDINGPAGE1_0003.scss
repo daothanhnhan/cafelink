@@ -1,0 +1,44 @@
+.gb-nhung-con-so-antuong{
+  padding: 80px 0;
+  //background-image: linear-gradient(to right, #0553a3, rgba(5, 83, 163, 0) 50%, #0553a3), linear-gradient(#3f97da, #3f97da);
+  background-position: center center;
+  background-size: cover;
+  .title-center{
+    h2{
+      color: $color-white;
+    }
+    .under-line2{
+      background: url(../images/underline2.png) no-repeat;
+      height: 16px;
+      background-position: center center;
+    }
+  }
+  ul{
+    li{
+      &.icons{
+        img{
+          margin:  0 auto;
+          width: 150px;
+        }
+      }
+      &.number{
+        font-size: 36px;
+        text-align: center;
+        font-weight: 600;
+        margin: 15px 0;
+        color: $color-white;
+      }
+      &.text{
+        font-size: 16px;
+        font-weight: normal;
+        font-style: normal;
+        font-stretch: normal;
+        line-height: 1.86;
+        letter-spacing: normal;
+        text-align: center;
+        color: $color-white;
+        text-transform: capitalize;
+      }
+    }
+  }
+}

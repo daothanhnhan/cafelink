@@ -1,0 +1,27 @@
+.gb-top-header-left{
+  padding: 5px 0;
+  @media screen and (max-width: 600px) {
+    display:  none;
+  }
+  ul{
+    li{
+      display: inline-block;
+      font-size: 14px;
+      padding: 0 10px;
+      color: $color-black;
+      border-right: 1px solid #ccc;
+      &:last-child{
+        padding-right: 0;
+        border-right: 0;
+      }
+      i{
+        font-size: 20px;
+        padding-right: 5px;
+        color: $color-main1;
+      }
+      a{
+        color: $color-black;
+      }
+    }
+  }
+}

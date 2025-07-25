@@ -1,0 +1,28 @@
+/*TOP HEADER*/
+.is-sticky{
+  position: relative;
+  z-index: 9999;
+  @media screen and (max-width: 991px) {
+    visibility:  hidden;
+  }
+}
+
+.gb-top-header{
+  padding: 5px 0;
+  border-bottom: 1px solid #ccc;
+}
+/*BETWEEN HEADER*/
+.gb-between-header{
+  padding: 5px 0;
+  @media screen and (max-width: 767px) {
+    padding: 15px 0;
+    img{
+      width: 220px;
+    }
+  }
+  h1{
+    a{
+      display: block;
+    }
+  }
+}
